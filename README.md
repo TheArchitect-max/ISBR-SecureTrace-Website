@@ -1,25 +1,57 @@
 # ISBR SecureTrace Website
 
-Official public website for **ISBR SecureTrace — Evidence-Governed Biological Provenance & Assurance Platform**.
+Public presentation site for **ISBR SecureTrace — Evidence-Governed Biological Provenance & Assurance Platform**.
 
-This repository intentionally contains only public-facing website assets. Proprietary product implementation, internal assurance logic, sensitive technical detail, biological construct information and laboratory procedures are not published here.
+Part of the broader [TheArchitectMax software & systems portfolio](https://thearchitect-max.github.io/MyProjects/).
 
 ## Public site
 
 https://thearchitect-max.github.io/ISBR-SecureTrace-Website/
 
-## Scope
+## Purpose
 
-The site presents the product at a high level:
+This repository is intentionally limited to a static public project showcase and high-level documentation layer. It describes:
 
-- biological asset provenance and traceability;
-- evidence governance;
-- computational qualification;
-- transfer and acquisition assurance;
-- lifecycle evidence and auditability;
-- explicit validation boundaries.
+- what the project is;
+- the problem it is intended to address;
+- high-level capabilities;
+- design principles;
+- potential use contexts;
+- project status;
+- validation boundaries.
 
-The public site does not claim that software or computational verification alone establishes wet-lab biological efficacy, legal title, payment settlement, patent ownership or regulatory approval.
+It does **not** contain the proprietary product implementation.
+
+## Art direction
+
+The site uses a project-specific interpretation of the TheArchitectMax visual family:
+
+- chiaroscuro hierarchy;
+- tenebristic focal lighting;
+- sfumato depth and soft atmospheric transitions;
+- near-black botanical/charcoal tones;
+- bioluminescent jade with restrained warm amber highlights;
+- editorial serif/display typography paired with a modern system sans;
+- generous negative space and controlled technical detail.
+
+## Public/private boundary
+
+Not published here:
+
+- proprietary source code;
+- internal algorithms or scoring logic;
+- private schemas or migrations;
+- credentials, secrets, keys or environment values;
+- biological sequences;
+- laboratory protocols;
+- unpublished research;
+- internal dashboards or private architecture material.
+
+The site does not claim that computational or software verification alone establishes wet-lab biological efficacy, ecological safety, legal title, payment settlement, patent ownership or regulatory approval.
+
+## Visual provenance
+
+See [IMAGE_CREDITS.md](IMAGE_CREDITS.md). The current site uses only original local SVG visuals and no externally sourced imagery.
 
 ## Deployment
 
@@ -28,6 +60,6 @@ The repository is prepared for branch-based GitHub Pages publishing from:
 - branch: `main`
 - folder: `/(root)`
 
-For first-time activation, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. After that, pushes to `main` publish the site without a custom deployment workflow.
+For first-time activation, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save.
 
 © ISBR SecureTrace.
