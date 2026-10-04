@@ -23,6 +23,11 @@ The public site does not claim that software or computational verification alone
 
 ## Deployment
 
-GitHub Pages deployment is defined in `.github/workflows/pages.yml`.
+The repository is prepared for branch-based GitHub Pages publishing from:
+
+- branch: `main`
+- folder: `/(root)`
+
+For first-time activation, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. After that, pushes to `main` publish the site without a custom deployment workflow.
 
 © ISBR SecureTrace.
