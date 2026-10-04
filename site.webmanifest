@@ -4,7 +4,7 @@
   "description": "Evidence-Governed Biological Provenance & Assurance Platform",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#050806",
-  "theme_color": "#050806",
+  "background_color": "#010201",
+  "theme_color": "#010201",
   "icons": []
 }
